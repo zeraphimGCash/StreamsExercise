@@ -28,7 +28,7 @@ public class Main {
         System.out.println("\nSorted Allocations (Highest to Lowest):");
         sortedAllocations.forEach(System.out::println);
 
-        // Process the allocations (assumes processAllocations method exists)
+        // Process the allocations
         List<Allocation> processedAllocations = RoundingUtility.processAllocations(sortedAllocations);
 
         // Sort the processed allocations

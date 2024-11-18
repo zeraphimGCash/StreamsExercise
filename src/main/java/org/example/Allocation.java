@@ -4,11 +4,13 @@ public class Allocation {
     private String name;
     private double percentage;
 
+    // Constructor
     public Allocation(String name, double percentage) {
         this.name = name;
         this.percentage = percentage;
     }
 
+    // Methods
     public String getName() {
         return name;
     }
